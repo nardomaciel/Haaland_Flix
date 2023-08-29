@@ -6,3 +6,14 @@ body{
 header{
     padding: 1%;
 }
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+section {
+    background: rgb(5, 5, 5);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

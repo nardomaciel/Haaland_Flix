@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<!-- O cabeçalho (head) do documento HTML, onde informações e recursos importantes são definidos -->
+<head>
+
+    <!-- Título da página que aparece na aba do navegador ou na barra de título da janela -->
+    <title>Alura Plus</title>
+
+    <!-- Meta tag para especificar o conjunto de caracteres (charset) usado na página, que é UTF-8 -->
+    <meta charset="UTF-8">
+
+    <!-- Meta tag para definir a escala inicial e a largura da visualização para dispositivos móveis -->
+    <!-- Isso permite uma exibição responsiva em dispositivos com diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    /* Estilo para o corpo (body) do documento HTML */
+body {
+    /* Define o fundo (background) como preto */
+    background: black;
+
+    /* Define a cor do texto como branco */
+    color: white;
+
+    /* Define a margem (espaço ao redor) do corpo como 0 pixels, removendo espaçamento padrão */
+    margin: 0px;
+}
+
+/* Estilo para o cabeçalho (header) do documento */
+header {
+    /* Adiciona um preenchimento (padding) de 20 pixels ao redor do conteúdo do cabeçalho */
+    padding: 20px;
+
+    /* Adiciona uma borda inferior de 2 pixels sólida com a cor azul (rgb(42, 122, 228)) */
+    border-bottom: 2px solid rgb(42, 122, 228);
+
+    /* Define o tamanho da fonte como 32 pixels */
+    font-size: 32px;
+
+    /* Define a cor do texto como azul (rgb(42, 122, 228)) */
+    color: rgb(42, 122, 228);
+}
+
+/* Estilo para a seção (section) do documento */
+section {
+    /* Define o fundo (background) da seção como vermelho (rgb(245, 5, 7)) */
+    background: rgb(5, 5, 5);
+
+    /* Adiciona um preenchimento (padding) de 80 pixels acima do conteúdo da seção */
+    padding-top: 80px;
+
+    /* Adiciona um preenchimento (padding) de 80 pixels abaixo do conteúdo da seção */
+    padding-bottom: 80px;
+}
+</style>
+
+</head>
+<body>
+   
+    
+    <section class="container_principal">
+        
+        <section class="container__caixa">
+            <h1>O que é ser Professora?</h1>
+
+            <p>#Videos</p>
+        </section>
+
+        <section class="container_video">
+            <iframe width="517" height="388" src="https://www.youtube.com/embed/Gmli8rLKjC8"
+                title="CARTA ABERTA de uma professora INDIGNADA! CHEGA!!! | Diogo Almeida" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+    </section>
+
+    <section class="container secundario">
+        <img src="img/Prof2.jpg" alt="Um monitor e um celular com a alura plus aberta" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assista do seu jeito</h2>
+            <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros
+                aparelhos. Nossa seleção de cursos não para de crescer.</p>
+                
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">
+                Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da
+                tecnologia e aprender inglês ou espanhol, onde e como quiser.
+            </p>
+            <a href="www.alura.com.br" class="container_botao secundario_botao" container>Assine o Combo+</a>
+        </div>
+        <img src="img/Prof.jpg" alt="Tela do alura+ e alura língua" class="secundario__imagem">
+    </section>
+
+    <section class="container secundario">
+        <img src="img/Notebook.png" alt="Notebook com a página do curso HTML5 e CSS3 da Alura aberta"
+            class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Baixe seus cursos</h2>
+            <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com
+                você, até mesmo sem internet.</p>
+        </div>
+    </section>
+
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="img/tv.png" alt="Ícone de televisão">
+                <h3 class="lista__item">TV</h3>
+            </li>
+            <li>
+                <img src="img/computador.png" alt="Ícone de computador">
+                <h3 class="lista__item">Computador</h3>
+            </li>
+            <li>
+                <img src="img/celular.png" alt="Ícone de celular">
+                <h3 class="lista__item">Celular</h3>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="rodape">
+        <img src="img/Logo.png" alt="Alura+" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link">
+                <a href="#">Idioma</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Dispositivos compatíveis</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Contrato de assinatura</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Politica de privacidade</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Proteção de dados no Brasil</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Anuncios personalizados</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Ajuda</a>
+            </li>
+        </ul>
+        <p class="rodape__texto">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de
+            assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+        <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O
+            serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São
+            Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
+    </footer>-->
+
+</body>
+
+</html>
